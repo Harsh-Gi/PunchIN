@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="Current Latitude:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/latTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Latitude will be here! "
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="Current Longitude:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/lonTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Longitude will be here! "
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/setLocBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET LOCATION" />
+
+    <Button
+        android:id="@+id/matchLocBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MATCH LOCATION" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="Expected Latitude:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/latTextViewE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Latitude will be here! "
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="Expected Longitude:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/lonTextViewE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Longitude will be here! "
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/locResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Result"
+        android:textColor="@color/black" />
+
+</LinearLayout>

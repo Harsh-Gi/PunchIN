@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869058914220",
+    "project_id": "thatsapp-46066",
+    "storage_bucket": "thatsapp-46066.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869058914220:android:89aefbf07f9df1c0ec3c09",
+        "android_client_info": {
+          "package_name": "com.example.thatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869058914220-88qt4vbqgsb57n285m12licgacblqb4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6if2M1VQstrpz45cPFBTC9hshxxHEo_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869058914220-88qt4vbqgsb57n285m12licgacblqb4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
